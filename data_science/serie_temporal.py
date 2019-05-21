@@ -27,3 +27,4 @@ if __name__ == "__main__":
         user_input = input("Digite o input digite")
         user_input = json.loads(user_input)
         output = api.apply(json_input)
+        print(output)
