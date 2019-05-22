@@ -1,6 +1,6 @@
 import json
 
-class ForecastAPI():
+class ForecastService():
     """
     ... Develop our code ...
     """
@@ -21,7 +21,7 @@ class ForecastAPI():
 
 if __name__ == "__main__":
 
-    api = ForecastAPI()
+    api = ForecastService()
 
     while True:
         user_input = input("Digite o input digite")
